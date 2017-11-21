@@ -1,0 +1,77 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.panyakrp.testiot.fragment.TimelineFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="กราฟแสดงการเกิดก๊าซรั่วไหล"
+                    android:textSize="20dp"
+                    android:textColor="@color/bb_tabletRightBorderDark"
+                    android:textStyle="bold" />
+                <com.github.mikephil.charting.charts.LineChart
+                    android:id="@+id/chart2"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:layout_above="@+id/seekBar1" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/accent_500"
+                    android:text="**หมายเหตุ การแสดงผลของกราฟ 500 แสดงถึงตรวจพบก๊าซรั่ว"
+                    android:textSize="20dp" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="กราฟแสดงปริมาณก๊าซ LPG "
+                    android:textSize="20dp"
+                    android:textColor="@color/bb_tabletRightBorderDark"
+                    android:textStyle="bold" />
+
+                <com.github.mikephil.charting.charts.LineChart
+                    android:id="@+id/chart1"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:layout_above="@+id/seekBar1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="ปริมาณก๊าซ LPG รั่วไหลโดยมีหน่วยเป็น ppm "
+                    android:textSize="20dp" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "184741079047",
+    "firebase_url": "https://project-arduino-4b620.firebaseio.com",
+    "project_id": "project-arduino-4b620",
+    "storage_bucket": "project-arduino-4b620.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184741079047:android:6e34a95e4a0a834a",
+        "android_client_info": {
+          "package_name": "com.example.panyakrp.project_ardunino"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184741079047-an960p23umoj5i9kv9ppusqvptu4t5tv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.panyakrp.project_ardunino",
+            "certificate_hash": "c7ac380f6d714875a019a7d8adae47bca0822097"
+          }
+        },
+        {
+          "client_id": "184741079047-jb3jfj95nka2ese7pukufsor18jcj98a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzAsiLh4FG9CYgDhZ9B0nmjg7CS5WnvYg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "184741079047-jb3jfj95nka2ese7pukufsor18jcj98a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184741079047:android:4b3ffa9d0e6d091b",
+        "android_client_info": {
+          "package_name": "com.example.panyakrp.testiot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184741079047-45jo1ddjts0dh2on31ahcrd3iif2ukfg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.panyakrp.testiot",
+            "certificate_hash": "c7ac380f6d714875a019a7d8adae47bca0822097"
+          }
+        },
+        {
+          "client_id": "184741079047-jb3jfj95nka2ese7pukufsor18jcj98a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzAsiLh4FG9CYgDhZ9B0nmjg7CS5WnvYg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "184741079047-jb3jfj95nka2ese7pukufsor18jcj98a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

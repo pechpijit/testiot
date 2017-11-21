@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        icon="@drawable/ic_home_white_24dp"
+        id="@+id/tab_home"
+        title="Home"
+        barColorWhenSelected="@color/menu1" />
+    <tab
+        icon="@drawable/ic_timeline_white_24dp"
+        id="@+id/tab_timeline"
+        title="History"
+        barColorWhenSelected="@color/menu2" />
+</tabs>
